@@ -1,0 +1,105 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 1em;
+  padding: 2em; }
+  body .index {
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    width: 100%;
+    padding: 2em; }
+    body .index .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    body .index .grid-items {
+      border: 1px solid black;
+      padding: 1.5em;
+      background-color: white;
+      -webkit-box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+              box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6); }
+    body .index .grid-items > a {
+      display: inline-block;
+      padding-bottom: 1em; }
+  body .new {
+    background-color: #f2f2f2; }
+  body .show {
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    padding: 3em;
+    margin: 2 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    body .show .show__container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    body .show .show__items {
+      background-color: white;
+      border: 1px solid black;
+      padding: 1em;
+      -webkit-box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+              box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6); }
+    body .show .show__items img {
+      margin: 0 auto; }
+
+header {
+  background-color: black;
+  text-align: center;
+  padding: 2.5em;
+  font-family: 'Monoton', cursive;
+  color: lightgray; }
+
+header h1 {
+  font-size: 4.5rem;
+  word-spacing: 1.5rem; }
+
+.nav-text-link {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.5rem; }
+
+.albumStore__outOfStock {
+  color: red;
+  font-size: 1.3rem; }
+
+.btn-container {
+  padding: .5em; }
+
+.btn-container form {
+  margin-right: 2em; }
+
+.btn-container form input {
+  padding: 1em;
+  cursor: pointer; }
+
+.form-container {
+  border: 1px solid black;
+  width: 95%;
+  margin: 2em auto;
+  padding: 5em;
+  background-color: #f2f2f2; }
