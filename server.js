@@ -1,6 +1,6 @@
 // Import Needed Modules
 require("dotenv").config(); // connects to .env
-// console.log(process.env.MONGO_URI ? "linked" : "not working");
+console.log(process.env.MONGO_URI ? "linked" : "not working");
 const express = require("express");
 const methodOverride = require("method-override");
 const mongoose = require("mongoose");
